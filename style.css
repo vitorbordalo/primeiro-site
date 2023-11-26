@@ -32,7 +32,6 @@
 
 
 
-
 body {
  /*
   background-image: url(./assets/bg-mobile.jpg);
@@ -54,16 +53,12 @@ body * {
 
 
 
-
-
   #container {
     width: 100%;
     max-width: 588px;
     margin: 56px auto 0px;
     padding: 0 24px;
   }
-
-
 
 
 
@@ -96,9 +91,6 @@ body * {
   margin: 4px auto;
 }
 
-
-
-
 #switch button {
   width: 32px;
   height: 32px;
@@ -119,7 +111,7 @@ body * {
 }
 
 #switch button:hover {
-  outline: 4px solid plum;
+  outline: 4px solid p;
 }  
 
 
@@ -133,6 +125,10 @@ body * {
     -webkit-backdrop-filter: blur(4px);
     border-radius: 9999px;
   }
+
+
+
+
 
 
   /* Liks / Lista */
@@ -159,11 +155,18 @@ body * {
     transition: background .6s;
   }
 
+
+
+
   /*selector*/
   ul li a:hover {
     background: var(--surface-color-hover);
     border: 1.5px solid var(--text-color);
   }
+
+
+
+
 
   /*social-links*/
   #social-links {
@@ -203,6 +206,9 @@ body * {
     }
   }
 
+
+
+  
   /* animations */
   @keyframes slide-in {
     from {
